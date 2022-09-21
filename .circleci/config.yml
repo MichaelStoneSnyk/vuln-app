@@ -54,6 +54,7 @@ jobs:
           name: Snyk Test
           command: |
             snyk version
+            severity-threshold=high
  
 workflows:
   tsm-bootcamp:
